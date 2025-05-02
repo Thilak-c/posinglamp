@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Admin Dashboard - PosingLamp</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="admin-container">
+    <header>
+      <h1>📦 PosingLamp Admin</h1>
+      <p>Orders Sorted by Status</p>
+    </header>
+
+    <section id="pending-orders" class="status-section">
+      <h2>🟡 Pending Orders</h2>
+      <div class="table-wrapper"><table><thead><tr></tr></thead><tbody></tbody></table></div>
+    </section>
+
+    <section id="processing-orders" class="status-section">
+      <h2>🔵 Processing Orders</h2>
+      <div class="table-wrapper"><table><thead><tr></tr></thead><tbody></tbody></table></div>
+    </section>
+
+    <section id="shipped-orders" class="status-section">
+      <h2>🟣 Shipped Orders</h2>
+      <div class="table-wrapper"><table><thead><tr></tr></thead><tbody></tbody></table></div>
+    </section>
+
+    <section id="delivered-orders" class="status-section">
+      <h2>🟢 Delivered Orders</h2>
+      <div class="table-wrapper"><table><thead><tr></tr></thead><tbody></tbody></table></div>
+    </section>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
